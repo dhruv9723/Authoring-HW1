@@ -84,6 +84,10 @@
       // theHeader.classList.add('spring');
       //
       //document.querySelector('#spring').click();
-
+      changeElements.call(document.querySelector('#winter'));
       changeElements.call(document.querySelector('#spring'));
+      changeElements.call(document.querySelector('#autumn'));
+      changeElements.call(document.querySelector('#summer'));
+
+
 })();
